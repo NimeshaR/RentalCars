@@ -1,0 +1,72 @@
+/*form{
+	width:50%;
+  height: min-content;
+	margin:8px 10px;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius:10px;
+	padding:12px 20px;
+	background: #d0d3d4 ; 
+	font-size:14px;
+	font-family:verdana;
+	color:blue;
+	box-sizing:content-box;
+	text-align:left;
+  align-content: center;
+	
+}*/
+body {
+  background-image: url("../H:\assignment\2nd year\OOP Project\images\car.jpg");
+  background-repeat:no-repeat;
+  background-size:100%100%;
+  
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=phone], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

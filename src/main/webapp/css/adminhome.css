@@ -1,0 +1,105 @@
+.para{
+    text-align: center;
+}
+.para h1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.main{
+    float: left;
+    
+}
+
+.image img{
+    width: 100%;
+    padding: 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5p;
+}
+
+.cards{
+    width: 20%;
+    transition: 1s;
+    border-radius: 5px;
+    margin: 65px;
+    display: inline-block;
+    padding: 20px;
+    
+    
+}
+.cards:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 10px black;
+}
+.title{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*.button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    
+
+}
+.button:hover{
+    background-color: black;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+
+}*/
+
+.vis .a{
+    font-family: Georgia;
+    color: rgb(20, 148, 73);
+    cursor: pointer;
+    text-decoration: slateblue;
+    color: black;
+    transition: .3s ease;
+    background-color: burlywood;
+    border: 10px; 
+  }
+
+  .vis  :hover{
+    background-color: chartreuse;
+  }
+
+/*
+  button customization
+  */
+  .btnslmap{
+    width: 160px;
+    height: 50px;
+    background: rgb(24, 139, 120);
+    border: seagreen;
+   /* margin-bottom: 10px;
+    margin-left: 20px;*/
+    font-size: 19px;
+    font-family: 'Gill Sans';
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s ease ;
+    position: relative;
+    left: 50px;
+    top: 30px;
+
+  }
+
+   .btnslmap a{
+    
+    color: rgb(85, 69, 228);
+    color: rgb(245, 240, 240);
+    transition: .3s ease;
+    
+  }
+
+  .btnslmap:hover{
+    background-color: rgb(91,209,215);
+  }
